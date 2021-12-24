@@ -35,10 +35,10 @@ public class CacheConfiguration {
             );
     }
 
-    @Bean
-    public HibernatePropertiesCustomizer hibernatePropertiesCustomizer(javax.cache.CacheManager cacheManager) {
-        return hibernateProperties -> hibernateProperties.put(ConfigSettings.CACHE_MANAGER, cacheManager);
-    }
+    //    @Bean
+    //    public HibernatePropertiesCustomizer hibernatePropertiesCustomizer(javax.cache.CacheManager cacheManager) {
+    //        return hibernateProperties -> hibernateProperties.put(ConfigSettings.CACHE_MANAGER, cacheManager);
+    //    }
 
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer() {
@@ -48,6 +48,8 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.mycompany.myapp.domain.PedidoInterprete.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.PedidoInterpreteProcess.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

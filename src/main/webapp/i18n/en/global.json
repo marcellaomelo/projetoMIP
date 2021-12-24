@@ -12,6 +12,10 @@
         "processInstance": "Process Instances",
         "taskInstance": "All Tasks",
         "myCandidateTasks": "My Tasks",
+        "pedidoInterprete": "Pedido Interprete",
+        "pedidoInterpreteProcess": "Pedido Interprete Process",
+        "pedidoInterpreteStartForm": "Pedido Interprete Start Form",
+        "taskPreenchePedido": "Task Preenche Pedido",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

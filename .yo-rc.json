@@ -52,6 +52,7 @@
     "jwtSecretKey": "YmUxMTIxOGNkNTBmZTYzM2E0ZWQxZTI3NzM0YzkxNDMwZWFjYmNlOGU4ZDEyNDBlMTUzZDVkOGYyY2E4MjI2MTI1NzNhNTc2ZTIxODRmODExMzNkMTU0ZmRjMTQ2ZDQ3MzE5ZjVkZWQ0MjU2NDZiZWIyYTk5ZmE5OGZhZWJmYjM=",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en"]
+    "languages": ["en"],
+    "entities": ["PedidoInterprete"]
   }
 }
